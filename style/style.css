@@ -1,0 +1,72 @@
+body {
+  margin: 1px;
+  background: #4e54c8; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #8f94fb,
+    #4e54c8
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #8f94fb,
+    #4e54c8
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: "Poppins", sans-serif !important;
+  color: white !important;
+}
+.options-currency,
+.input-amount {
+  width: 30rem !important;
+}
+.result {
+  font-size: 1.5rem;
+}
+.text-intro {
+  width: 30rem;
+  text-align: center;
+}
+@media screen and (max-width: 522px) {
+  .options-currency,
+  .input-amount {
+    width: 25rem !important;
+  }
+  .text-intro {
+    width: 25rem;
+  }
+}
+@media screen and (max-width: 415px) {
+  .options-currency,
+  .input-amount {
+    width: 20rem !important;
+  }
+  .text-intro {
+    width: 20rem;
+  }
+}
+@media screen and (max-width: 350px) {
+  .options-currency,
+  .input-amount {
+    width: 18rem !important;
+  }
+  .text-intro {
+    width: 18rem;
+  }
+}
+@media screen and (max-width: 311px) {
+  .options-currency,
+  .input-amount {
+    width: 15rem !important;
+  }
+  .text-intro {
+    width: 15rem;
+  }
+}
+@media screen and (max-width: 280px) {
+  .options-currency,
+  .input-amount {
+    width: 12rem !important;
+  }
+  .text-intro {
+    width: 12rem;
+  }
+}
